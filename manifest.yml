@@ -1,0 +1,16 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: forest0001
+  host: forest0001
+  disk_quota: 1024M
+  services:
+  - forest0001-cloudantNoSQLDB
+  - forest0001-iotf-service
+  - Language Translator-y0
+  - Conversation-yd
+  - Speech to Text-ma
+  - Text to Speech-xj
+  - Visual Recognition-21
